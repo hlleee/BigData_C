@@ -25,7 +25,6 @@
 
 ### 메타문자
 : 메타문자는 문자를 설명하기 위한 문자로, 문자의 구성을 설명하기 위해 원래의 의미가 아닌 다른 의미로 쓰이는 문자를 말한다.
-- 정규표현식에서는 위와 같은 메타문자를 사용다.
 
 > 💡메타문자 종류 <br/>
 ^ : 문자열의 처음을 나타낸다. <br/>
@@ -39,6 +38,8 @@ $ : 문자열의 끝을 나타낸다. <br/>
 ( ) : 괄호 안의 문자열은 하나로 묶어 취급한다.<br/>
 | : 또는(or)의 뜻으로 선택문에 쓰인다.<br/>
  \ : 메타 문자의 성질을 없앨 때 붙인다.<br/>
+  
+  <br/>
  
  ### 정규 표현식 (Regular Expression)
 ![](https://velog.velcdn.com/images/hllee/post/0c8df363-1a7e-4fd1-acc2-503711c7ec33/image.png)
@@ -347,3 +348,4 @@ print(result.group('front'))
 
 
 출처 - https://brownbears.tistory.com/506
+
